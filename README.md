@@ -1,3 +1,2 @@
-# tsParticles React Demo
+# Resume Profil
 
-tsParticles React Demo used in Video tutorial
