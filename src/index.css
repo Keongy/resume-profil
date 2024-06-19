@@ -27,6 +27,11 @@ code {
   width: 60%;
   height: 50%;
   padding: 20px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 .content {
@@ -35,7 +40,12 @@ code {
   font-weight: bold;
 }
 
-.competences {
+.competences ul li {
+  list-style: none;
+  text-align: left;
+}
+
+/* .competences {
   border-radius: 10px;
   padding: 15px;
   box-shadow: 10px 5px 5px rgb(68, 68, 68);
@@ -46,8 +56,13 @@ code {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   background-color: rgb(255, 255, 255);
-}
+} */
 
 .name {
   text-align: left;
+}
+
+.separator {
+  width: 1px;
+  background: #000;
 }

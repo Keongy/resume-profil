@@ -1,7 +1,7 @@
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
-import { useCallback, useMemo } from "react";
-import background1 from '../assets/images/background1.jpeg';
+import { useCallback } from "react";
+import background from '../assets/images/AdobeStock_299564683.jpeg';
 
 const ParticlesComponent = (props) => {
 
@@ -96,7 +96,7 @@ const ParticlesComponent = (props) => {
       },
     },
     background: {
-      image: `url(${background1})`,
+      image: `url(${background})`,
       repeat: 'no-repeat',
       size: 'cover',
     }
