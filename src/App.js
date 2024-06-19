@@ -1,32 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import { Container } from './components/Container';
 import Particles from './components/Particles';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a
-          className="App-link"
-          href="https://particles.js.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          tsParticles
-        </a>
-      </header>
+      <Container>
+        <div className='name'>
+          <h2>Olivier Pichon</h2>
+          <h2>Développeur js</h2>
+          <h2>Expérience : 3ans</h2>
+        </div>
+
+        <div className="content">
+          <div className="competences">
+            <h2>Compétences principales</h2>
+            <ul>
+              <li>JavaScript, TypeScript</li>
+              <li>React.js, Next.js, Vue.js</li>
+              <li>Node.js, Express, Firebase</li>
+              <li>MongoDB, Mongoose</li>
+            </ul>
+          </div>
+
+          <div className="competences">
+            <h2>Outils et Technologies</h2>
+            <ul>
+              <li>Docker, GitLab</li>
+              <li>Jira, Confluence</li>
+              <li>Figma, Zeplin</li>
+            </ul>
+          </div>
+        </div>
+      </Container>
+
       <Particles id="tsparticles" />
     </div>
   );
